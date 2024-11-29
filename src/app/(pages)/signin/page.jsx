@@ -2,7 +2,7 @@ const Signin = () => {
   return (
     <main>
       <section className="container mx-auto">
-        <section className="h-[100vh] w-full flex items-center justify-center">
+        <section className="h-[70vh] w-full flex items-center justify-center">
           <section className="flex flex-col">
             <div>
               <h2 className="text-2xl font-semibold mb-4">Login to E-com</h2>
