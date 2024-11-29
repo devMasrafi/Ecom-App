@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import SearchBar from "./Searchbar";
 
 const NavBar = () => {
   const [scrollValue, setScrollValue] = useState(false);
@@ -28,7 +29,7 @@ const NavBar = () => {
         <div className="flex items-center justify-between py-2">
           <div>
             <h1 className="text-2xl font-ralewayFont tracking-wider  ">
-              <Link href={'/'}>ECom-App</Link>
+              <Link href={"/"}>ECom-App</Link>
             </h1>
           </div>
           <div></div>
@@ -49,6 +50,7 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
+        <div className="flex justify-end"></div>
       </section>
     </main>
   );
