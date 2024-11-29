@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="font-robotoFont">
         <NavBar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
