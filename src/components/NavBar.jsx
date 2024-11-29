@@ -28,7 +28,7 @@ const NavBar = () => {
         <div className="flex items-center justify-between py-2">
           <div>
             <h1 className="text-2xl font-ralewayFont tracking-wider  ">
-              ECom-App
+              <Link href={'/'}>ECom-App</Link>
             </h1>
           </div>
           <div></div>
